@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<script>
+	window.addEventListener('load',function() {
+	alert('HEY PROFESSOR, THIS WEBSITE IS ABOUT MY FAVOURITE PLAYER LIONEL MESSI.');
+	});
+	function showPopup() {
+	var popup = document.createElement('div');
+	popup.className = 'popup' ;
+	popup.innerText = 'ANKARA MESSII GOALLLL ' ;
+	document.body.appendChild(popup);
+	}
+</script>
+<style>
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #FFFFFF;
+      padding: 20px;
+      border: 2px solid #000;
+      font-size: 100px;
+      text-align: center;
+      z-index: 9999;
+    }
+
+    .center-button {
+      display: flex;
+      justify-content: center;
+	  background-color: #000000;
+      padding: 5px;
+      border: 20px solid #000;
+      font-size: 40px;
+    }
+	</style>
+
+	<meta charset="UTF-8">
+	<title>LIONEL MESSI 10</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie7.css"><![endif]-->
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div>
+				<ul>
+					<li class="current">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+				</ul>
+				
+				<ul>
+					<li>
+						<a href="blog.html">Achievements</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<ul>
+				<div class="center-button">
+				<button onclick="showPopup()">"MAESTRO" - PRESS ME</button>
+			</ul>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<ul id="featured">
+				<li>
+					<a><img src="2.png" alt="Image" width="430" height="700"></a>
+					<h1>LIONEL</h1>
+					<h2>MESSI</h2>
+					
+				</li>
+				<li>
+					<a><img src="3.jpg" alt="Image" width="430" height="700"></a>
+					<h1>MAESTRO</h1>
+					<h2>THE KING</h2>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>
+				TAHSAN KAMAL / 23229556
+			</p>
+		</div>
+	</div>
+</body>
+</html>
